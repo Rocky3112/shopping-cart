@@ -9,6 +9,8 @@ function updateCaseNumber(isIncrease){
     }
     else{
         newCaseNumber = previousCaseNumber - 1;
+//   break; does not work why i dont know
+//i want to ignore negative value
         
     }
      
