@@ -15,7 +15,7 @@ function updateCaseNumber(isIncrease){
     caseNumberField.value =newCaseNumber; 
     return newCaseNumber;
 }
-
+//calculate total case price
 function updateCaseTotalPrice(newCaseNumber){
     const caseTotalPrice = newCaseNumber * 59;
 

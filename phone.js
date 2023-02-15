@@ -15,7 +15,7 @@ function updatePhoneNumber(isIncrease){
     phoneNumberField.value =newPhoneNumber; 
     return newPhoneNumber;
 }
-
+//calculate total phone price
 function updatePhoneTotalPrice(newPhoneNumber){
     const phoneTotalPrice = newPhoneNumber * 1219;
 
@@ -23,7 +23,7 @@ function updatePhoneTotalPrice(newPhoneNumber){
     phoneTotalElement.innerText = phoneTotalPrice;
 
 }
-
+//calculate total phone button by function
 document.getElementById('btn-phone-plus').addEventListener('click', function(){
     const newPhoneNumber= updatePhoneNumber(true);
     updatePhoneTotalPrice(newPhoneNumber);
